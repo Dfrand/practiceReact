@@ -1,0 +1,58 @@
+.wrapper {
+  align-content: flex-start;padding-top: 50px;
+  background: rgb(0, 58, 249);
+  display: flex;
+  flex-flow: row wrap;
+  height: 100%; 
+  justify-content: space-around; 
+  margin: 0;;
+  overflow: auto;
+  padding: 20px;
+}
+
+/* NavBar */
+.container {
+  height: 100%; /* Do this if you want the cards to float underneath */
+  width: 100%;
+}
+
+h1 {
+  background-image: -webkit-linear-gradient(#ffff03, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3rem;
+  font-weight: bolder;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 1.50px;}
+
+.login {
+  border:solid whitesmoke 1px;
+  margin-bottom: 10%;
+}
+
+nav {
+  background-color: grey;
+  background-image: url("./books-library.jpg");
+  background-size: 100% 120%;
+  height: 10.75rem;
+}
+
+
+/* Footer */
+.devs {
+  background: -webkit-linear-gradient(springgreen, rgb(220, 219, 219));
+}
+
+.links {
+  padding-top: 10%; 
+  text-align: right;
+}
+
+.footer-copyright {
+  background: -webkit-linear-gradient(rebeccapurple, rgb(220, 219, 219));
+  text-align: center;
+}
+
+.values {
+  background: -webkit-linear-gradient(salmon, rgb(220, 219, 219));
+}
